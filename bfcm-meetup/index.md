@@ -27,6 +27,7 @@ by [Pascal Laliberté][pascallaliberte]
 * **Improve your Search**: _Searchanise_ is a neat app, with predictive search results (as you type)
 * **Live Chat** helps save sales and talk to your customers (_Olark_ was mentioned, also _Facebook Messenger_)
 * **Try your site on mobile** and turn off Wifi so you can get a sense of the real experience your visitors are getting.
+* **Product Reviews** (the app) is really helpful. When people give negative reviews, it allows you to get real feedback you can use to improve the product.
 
 ---
 
