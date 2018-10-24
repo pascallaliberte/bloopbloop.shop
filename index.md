@@ -75,5 +75,7 @@ By the end of that **first 30-minute call**, you'll have:
 **$90 USD** for a first 30-minute (helpful in itself) intro call.
 </div>
 
+{% include signup-services-announcement.html id="get-notified" %}
+
 [jtbd]: https://pascallaliberte.me/jtbd/hub/
 [pascallaliberte]: https://pascallaliberte.me/
