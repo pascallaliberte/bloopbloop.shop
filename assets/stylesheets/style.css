@@ -1215,6 +1215,11 @@ html[data-section-in-view="interests"] #interests h2 {
 .jtbd ul {
   margin-left: 2rem; }
 
+.bloop-bloop-shop tel {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: inline;
+  font-weight: 300;
+  font-size: 0.8em; }
 .bloop-bloop-shop #main-title {
   font-size: 2.2em;
   font-family: "freight-sans-condensed-pro", Helvetica, Arial, sans-serif;

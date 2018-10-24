@@ -7,8 +7,11 @@ class: bloop-bloop-shop
 # Bloop, Bloop, Shop! <span class="tagline">A tweaking service <br class="hide-mobile">for your Shopify Store</span>
 {: #main-title }
 
-by [Pascal Laliberté][pascallaliberte]
-{: .byline }
+<p class="byline" markdown="1">
+by [Pascal Laliberté][pascallaliberte]  
+<tel>613-986-1614</tel> (also on WhatsApp)  
+[pascal@pascallaliberte.me](mailto:pascal@pascallaliberte.me)
+</p>
 
 ### Notes from the BFCM meetup, Oct 24:
 
@@ -24,7 +27,6 @@ by [Pascal Laliberté][pascallaliberte]
 * **Improve your Search**: _Searchanise_ is a neat app, with predictive search results (as you type)
 * **Live Chat** helps save sales and talk to your customers (_Olark_ was mentioned, also _Facebook Messenger_)
 * **Try your site on mobile** and turn off Wifi so you can get a sense of the real experience your visitors are getting.
-
 
 ---
 
