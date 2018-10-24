@@ -1,0 +1,209 @@
+// Reset & Mixins ———————————————————————————— •
+// ——————————————————————————————————————————— •
+@charset "UTF-8";
+
+@import
+  'globals/mixins',
+  'globals/reset';
+
+
+// Base Styles ——————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+html {
+  font-size: 18px;
+}
+
+body {
+  @include border-box;
+  @include font-smoothing(antialiased);
+  background-color: $color-background;
+  color: $color-text;
+  font-family: $font-body;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  position: relative;
+}
+
+a {
+  color: $color-link;
+  margin: -.2rem;
+  padding: .2rem;
+  text-decoration: underline;
+
+  &:visited { color: $color-link-visited; }
+  &:hover { color: $color-link-hover; text-decoration: underline; }
+  &:active { color: $color-text; }
+}
+
+.content {
+  @include border-box;
+  @include clearfix;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: $font-headings;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.content {
+  padding: 5vh 0.8rem;
+
+  h1 {
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    padding-left: 1.6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+ul.get-started-checklist {
+  margin: 0 auto;
+  list-style: none;
+  font-style: normal;
+  li {
+    margin: 0.5em 0;
+    margin-left: 2em;
+    display:inline-block;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 1.5em;
+      height: 1.5em;
+      @include border-radius(0.75em);
+      left: -2em;
+      top: -0.2em;
+      background: #f7f4ee;
+    }
+    &:after{
+      /*Add another block-level blank space*/
+      content: '';
+      display: block;
+      position: absolute;
+      left: -1.5em;
+      top: 0em;
+
+      /*Make it a small rectangle so the border will create an L-shape*/
+      width: 0.3em;
+      height: 0.7em;
+
+      /*Add a white border on the bottom and left, creating that 'L' */
+      border: solid #000;
+      border-width: 0 0.2em 0.2em 0;
+
+      /*Rotate the L 45 degrees to turn it into a checkmark*/
+      transform: rotate(45deg);
+    }
+  }
+}
+
+a.link-alt-lang {
+  position: absolute;
+  top: 0.7em;
+  right: 1.5em;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  z-index: 1;
+}
+
+// Base Styles: Tablets —————————————————————— •
+// ——————————————————————————————————————————— •
+
+@include responsive-break-point(640px) {
+  html {
+    background-color: lighten($color-lines, 40%);
+  }
+  body {
+    margin: 3rem;
+    font-size: 1.4rem;
+    border: 0.2rem $color-lines solid;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    background: white;
+  }
+  .content {
+    padding: 10vh 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+// Base Styles: Desktop —————————————————————— •
+// ——————————————————————————————————————————— •
+
+@include responsive-break-point(800px) {
+  .content {
+    padding: 15vh 4rem;
+  }
+}
+
+
+// Fix: iOS Font Sizing —————————————————————— •
+// ——————————————————————————————————————————— •
+
+@media screen and (max-device-width: 480px) {
+  html {
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+  }
+}
+
+// Components ———————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+@import
+  'components/navigation',
+  'components/footer',
+  'components/forms',
+  'components/signup-forms';
+
+
+// Pages ————————————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+@import
+  'pages/home',
+  'pages/objectives-course',
+  'pages/reformers-course',
+  'pages/change-anything',
+  'pages/jtbd',
+  'pages/bloop-bloop-shop',
+  'pages/update';
