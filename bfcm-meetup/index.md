@@ -16,7 +16,9 @@ by [Pascal Laliberté][pascallaliberte]
 
 * **Massive increases in e-commerce markets**, including Canada
 * **Mobile will continue** to surpass desktop visits 
-* **Email Marketing** is still best as a channel, more than search, more than direct visits or social
+* **Email Marketing** is still best as a channel, more than search, more than direct visits or social. "Email isn't Dead. Shocked how many people read their email"
+* **The Value Ladder:** Free Brochure (Awareness) → $10 Sample (Retargeting Visitors) → $100 Order (Retargeting Intent Visitors) → Suscription Member (Engagement Campaign) → Loyal Customer (Upsell Campaign)
+* **Make Experiment**, Improve SEO, try Email Marketing, Automate
 
 ---
 
