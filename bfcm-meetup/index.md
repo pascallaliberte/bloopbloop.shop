@@ -22,6 +22,7 @@ by [Pascal Laliberté][pascallaliberte]
 * **Secure Your Site**: Secure your passwords, delete unnecessary apps, manage permissions given to other users, backup everything.
 * **Page Speed**: Test your site, compress your images (_Image Optimizer_ app) and delete your unused apps (and its code under theme → snippets)
 * **Improve your Search**: _Searchanise_ is a neat app, with predictive search results (as you type)
+* **Live Chat** helps save sales and talk to your customers (_Olark_ was mentioned, also _Facebook Messenger_)
 
 ---
 
