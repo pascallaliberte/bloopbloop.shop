@@ -19,6 +19,9 @@ by [Pascal Laliberté][pascallaliberte]
 * **Email Marketing** is still best as a channel, more than search, more than direct visits or social. "Email isn't Dead. Shocked how many people read their email"
 * **The Value Ladder:** Free Brochure (Awareness) → $10 Sample (Retargeting Visitors) → $100 Order (Retargeting Intent Visitors) → Suscription Member (Engagement Campaign) → Loyal Customer (Upsell Campaign)
 * **Make Experiment**, Improve SEO, try Email Marketing, Automate
+* **Secure Your Site**: Secure your passwords, delete unnecessary apps, manage permissions given to other users, backup everything.
+* **Page Speed**: Test your site, compress your images (_Image Optimizer_ app) and delete your unused apps (and its code under theme → snippets)
+* **Improve your Search**: _Searchanise_ is a neat app, with predictive search results (as you type)
 
 ---
 
