@@ -12,7 +12,11 @@ by [Pascal Laliberté][pascallaliberte]
 
 ### Notes from the BFCM meetup, Oct 24:
 
-(check back later for notes, or learn more about Bloop, Bloop, Shop! below)
+(updating these notes during the event, or learn more about Bloop, Bloop, Shop! below)
+
+* **Massive increases in e-commerce markets**, including Canada
+* **Mobile will continue** to surpass desktop visits 
+* **Email Marketing** is still best as a channel, more than search, more than direct visits or social
 
 ---
 
