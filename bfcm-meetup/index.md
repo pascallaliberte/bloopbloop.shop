@@ -23,6 +23,8 @@ by [Pascal Laliberté][pascallaliberte]
 * **Page Speed**: Test your site, compress your images (_Image Optimizer_ app) and delete your unused apps (and its code under theme → snippets)
 * **Improve your Search**: _Searchanise_ is a neat app, with predictive search results (as you type)
 * **Live Chat** helps save sales and talk to your customers (_Olark_ was mentioned, also _Facebook Messenger_)
+* **Try your site on mobile** and turn off Wifi so you can get a sense of the real experience your visitors are getting.
+
 
 ---
 
