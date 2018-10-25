@@ -9,13 +9,10 @@ class: bloop-bloop-shop
 
 <p class="byline" markdown="1">
 by [Pascal Laliberté][pascallaliberte]  
-<tel>613-986-1614</tel> (also on WhatsApp)  
 [pascal@pascallaliberte.me](mailto:pascal@pascallaliberte.me)
 </p>
 
 ### Notes from the BFCM meetup, Oct 24:
-
-(updating these notes during the event, or learn more about Bloop, Bloop, Shop! below)
 
 * **Massive increases in e-commerce markets**, including Canada
 * **Mobile will continue** to surpass desktop visits 
