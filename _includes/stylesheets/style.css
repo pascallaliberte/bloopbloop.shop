@@ -68,6 +68,9 @@ input, select {
 html {
   font-size: 18px; }
 
+.wf-loading *, .wf-inactive * {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -76,7 +79,7 @@ body {
   font-smoothing: antialiased;
   background-color: #FFF;
   color: #645430;
-  font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+  font-family: "freight-sans-pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.2rem;
   line-height: 1.5em;
   position: relative; }
@@ -110,7 +113,7 @@ a {
     visibility: hidden; }
 
 h1, h2 {
-  font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+  font-family: "freight-sans-pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900; }
 
 h1 {
@@ -491,16 +494,25 @@ body #mc_embed_signup {
   font-size: 0.8em; }
 .bloop-bloop-shop #main-title {
   font-size: 2.2em;
-  font-family: "freight-sans-condensed-pro", Helvetica, Arial, sans-serif;
+  font-family: "freight-sans-condensed-pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1;
   margin-top: 1em;
   margin-bottom: 2em; }
   .bloop-bloop-shop #main-title .tagline {
-    font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+    font-family: "freight-sans-pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 0.8em;
     margin-top: 0.2em;
     display: block;
     font-weight: normal; }
+    .wf-loading .bloop-bloop-shop #main-title .tagline, .wf-inactive .bloop-bloop-shop #main-title .tagline {
+      letter-spacing: -0.03em;
+      font-weight: 200;
+      line-height: 1.1; }
+  .wf-loading .bloop-bloop-shop #main-title, .wf-inactive .bloop-bloop-shop #main-title {
+    letter-spacing: -0.03em;
+    font-weight: 900;
+    font-size: 1.9em;
+    line-height: 1.4; }
 .bloop-bloop-shop .content {
   font-size: 0.9em;
   line-height: 1.25; }

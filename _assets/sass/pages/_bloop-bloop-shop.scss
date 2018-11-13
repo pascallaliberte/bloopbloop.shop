@@ -1,5 +1,3 @@
-$font-headings-main: "freight-sans-condensed-pro", Helvetica, Arial, sans-serif;
-
 .bloop-bloop-shop {
   
   tel {
@@ -11,7 +9,7 @@ $font-headings-main: "freight-sans-condensed-pro", Helvetica, Arial, sans-serif;
 
   #main-title {
     font-size: 2.2em;
-    font-family: $font-headings-main;
+    font-family: $font-headings-page-title;
     line-height: 1;
     margin-top: 1em;
     margin-bottom: 2em;
@@ -21,6 +19,19 @@ $font-headings-main: "freight-sans-condensed-pro", Helvetica, Arial, sans-serif;
       margin-top: 0.2em;
       display: block;
       font-weight: normal;
+      
+      .wf-loading &, .wf-inactive & {
+        letter-spacing: -0.03em;
+        font-weight: 200;
+        line-height: 1.1;
+      }
+    }
+    
+    .wf-loading &, .wf-inactive & {
+      letter-spacing: -0.03em;
+      font-weight: 900;
+      font-size: 1.9em;
+      line-height: 1.4;
     }
   }
 

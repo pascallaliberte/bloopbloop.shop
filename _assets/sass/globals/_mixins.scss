@@ -1,9 +1,10 @@
 // Typography ———————————————————————————————— •
 // ——————————————————————————————————————————— •
 
-$font-headings: "freight-sans-pro", Helvetica, Arial, sans-serif;
-$font-body: "freight-sans-pro", Helvetica, Arial, sans-serif;
 $font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-headings: "freight-sans-pro", $font-system;
+$font-body: "freight-sans-pro", $font-system;
+$font-headings-page-title: "freight-sans-condensed-pro", $font-system;
 
 @mixin font-smoothing($attr) {
   -webkit-font-smoothing: $attr;
