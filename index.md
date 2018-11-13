@@ -1,11 +1,11 @@
 ---
-title: "Bloop, Bloop, Shop! A tweaking service for your Shopify Store"
+title: "Bloop, Bloop, Shop! A Page Speed Tweaking Service for your Shopify Store"
 layout: default
 class: bloop-bloop-shop
 permalink: /speed/
 ---
 
-# Bloop, Bloop, Shop! <span class="tagline">A tweaking service <br class="hide-mobile">for your Shopify Store</span>
+# Bloop, Bloop, Shop! <span class="tagline">A Page Speed Tweaking Service <br class="hide-mobile">for your Shopify Store</span>
 {: #main-title }
 
 by [Pascal Laliberté][pascallaliberte]
