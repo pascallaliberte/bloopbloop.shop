@@ -190,9 +190,6 @@ a.link-alt-lang {
 // ——————————————————————————————————————————— •
 
 @import
-  'components/navigation',
-  'components/footer',
-  'components/forms',
   'components/signup-forms';
 
 
@@ -200,10 +197,4 @@ a.link-alt-lang {
 // ——————————————————————————————————————————— •
 
 @import
-  'pages/home',
-  'pages/objectives-course',
-  'pages/reformers-course',
-  'pages/change-anything',
-  'pages/jtbd',
-  'pages/bloop-bloop-shop',
-  'pages/update';
+  'pages/bloop-bloop-shop';
