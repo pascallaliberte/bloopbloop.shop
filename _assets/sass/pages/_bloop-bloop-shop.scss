@@ -79,6 +79,17 @@
   .demo-images {
     .demo-image {
       position: relative;
+      height: 0;
+      width: 100%;
+      padding-bottom: 172.79%;
+      background-color: #ccc;
+      margin-bottom: 10px;
+      
+      @include responsive-break-point(768px) {
+        width: 48%;
+        padding-bottom: (172.79 * .48) + 0%;
+      }
+      
       .legend {
         position: absolute;
         text-align: center;
@@ -100,11 +111,9 @@
   @include responsive-break-point(768px) {
     .left {
       float: left;
-      width: 48%;
     }
     .right {
       float: right;
-      width: 48%;
     }
 
     .demo-images {

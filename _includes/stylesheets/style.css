@@ -543,7 +543,16 @@ body #mc_embed_signup {
 .bloop-bloop-shop .text-center {
   text-align: center; }
 .bloop-bloop-shop .demo-images .demo-image {
-  position: relative; }
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 172.79%;
+  background-color: #ccc;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 768px) {
+    .bloop-bloop-shop .demo-images .demo-image {
+      width: 48%;
+      padding-bottom: 82.9392%; } }
   .bloop-bloop-shop .demo-images .demo-image .legend {
     position: absolute;
     text-align: center;
@@ -555,11 +564,9 @@ body #mc_embed_signup {
     color: white; }
 @media only screen and (min-width: 768px) {
   .bloop-bloop-shop .left {
-    float: left;
-    width: 48%; }
+    float: left; }
   .bloop-bloop-shop .right {
-    float: right;
-    width: 48%; }
+    float: right; }
   .bloop-bloop-shop .demo-images {
     zoom: 1; }
     .bloop-bloop-shop .demo-images:after {
