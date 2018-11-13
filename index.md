@@ -2,6 +2,7 @@
 title: "Bloop, Bloop, Shop! A tweaking service for your Shopify Store"
 layout: default
 class: bloop-bloop-shop
+permalink: /speed/
 ---
 
 # Bloop, Bloop, Shop! <span class="tagline">A tweaking service <br class="hide-mobile">for your Shopify Store</span>
