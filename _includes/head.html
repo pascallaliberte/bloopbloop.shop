@@ -14,10 +14,9 @@
 
     {% include og.html %}
 
-    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css">
-    {% if page.stylesheet %}
-      <link rel="stylesheet" type="text/css" href="/assets/stylesheets/{{ page.stylesheet }}.css">
-    {% endif %}
+    <style>
+    {% include stylesheets/style.css %}
+    </style>
     <script src="//use.typekit.net/qqj0cow.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
   </head>
