@@ -448,35 +448,39 @@ body #mc_embed_signup {
   body #mc_embed_signup div.response {
     margin: 0 0 1em;
     padding: 0; }
-  body #mc_embed_signup .mc-field-group label {
-    font-size: 0.7em;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #666666;
-    margin-bottom: -2.4em;
-    margin-left: 23px; }
-    body #mc_embed_signup .mc-field-group label .quiet {
-      text-transform: none;
-      color: #999999; }
-  body #mc_embed_signup .mc-field-group input[type="text"], body #mc_embed_signup .mc-field-group input[type="email"] {
-    box-sizing: border-box;
-    font-family: inherit;
-    font-size: inherit;
-    padding: 1.4em 20px 0.7em;
-    text-indent: 0px;
-    border: 2px solid #dcd1b7; }
-  body #mc_embed_signup .mc-field-group input.email {
-    padding: 1.4em 20px 0.7em;
-    border: 2px solid #dcd1b7; }
-  @media only screen and (min-width: 480px) {
-    body #mc_embed_signup .mc-field-group.left {
-      float: left;
-      width: 48%; }
-    body #mc_embed_signup .mc-field-group.right {
-      clear: none;
-      float: right;
-      width: 50%;
-      margin-left: 2%; } }
+  body #mc_embed_signup .mc-field-group {
+    margin-bottom: 10px;
+    width: 100%; }
+    body #mc_embed_signup .mc-field-group label {
+      font-size: 0.7em;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #666666;
+      margin-bottom: -2.4em;
+      margin-left: 23px;
+      padding-right: 23px; }
+      body #mc_embed_signup .mc-field-group label .quiet {
+        text-transform: none;
+        color: #999999; }
+    body #mc_embed_signup .mc-field-group input[type="text"], body #mc_embed_signup .mc-field-group input[type="email"] {
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: inherit;
+      padding: 1.4em 20px 0.7em;
+      text-indent: 0px;
+      border: 2px solid #dcd1b7; }
+    body #mc_embed_signup .mc-field-group input.email {
+      padding: 1.4em 20px 0.7em;
+      border: 2px solid #dcd1b7; }
+    @media only screen and (min-width: 480px) {
+      body #mc_embed_signup .mc-field-group.left {
+        float: left;
+        width: 48%; }
+      body #mc_embed_signup .mc-field-group.right {
+        clear: none;
+        float: right;
+        width: 50%;
+        margin-left: 2%; } }
   body #mc_embed_signup .mc-field-group-email {
     margin-top: 1em;
     width: 100%; }

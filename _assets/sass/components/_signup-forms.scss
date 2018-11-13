@@ -273,6 +273,9 @@ body #mc_embed_signup {
   
   .mc-field-group {
     
+    margin-bottom: 10px;
+    width: 100%;
+    
     label {
       font-size: 0.7em;
       text-transform: uppercase;
@@ -280,6 +283,7 @@ body #mc_embed_signup {
       color: lighten(black, 40%);
       margin-bottom: -2.4em;
       margin-left: 23px;
+      padding-right: 23px;
       .quiet {
         text-transform: none;
         color: lighten(black, 60%);
