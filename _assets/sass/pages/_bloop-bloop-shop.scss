@@ -119,6 +119,45 @@
     .demo-images {
       @include clearfix;
     }
+    
+    .clearfix {
+      @include clearfix;
+    }
+    
+    .two-columns {
+      .left, .right {
+        width: 40%;
+      }
+    }
+    
+    .psl-embed {
+      display: flex;
+      flex-direction: row;
+      
+      .left, .right {
+        float: none;
+        flex: 1;
+        width: auto;
+      }
+    }
+  }
+  
+  .psl-embed h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .psl-embed-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .psl-embed .right {
+    max-width: 60%;
+    margin: 0 auto;
   }
 
   .clarification {
