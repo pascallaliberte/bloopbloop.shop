@@ -37,6 +37,25 @@ A slow-loading site will also [affect your search rankings][search-rankings].
 [lost-sales]: https://www.shopify.ca/partners/blog/18840023-how-to-optimize-themes-for-performance
 [search-rankings]: https://www.shopify.ca/enterprise/60726275-page-speed-are-slow-loading-pages-killing-your-growth
 
+## How's your site doing?
+
+<div class="clearfix two-columns psl-embed">
+  <div class="left">
+    <div class="psl-embed-wrapper">
+      <iframe src="https://app.pagespeedleads.com/as/pascal-laliberte/iframe" width="320" height="148" frameborder="0"></iframe>
+    </div>
+  </div>
+  <div class="right">
+    <h3>By filling out this form, you will:</h3>
+    
+    <ul>
+      <li>Get a report via email for the speed of your site</li>
+      <li>Get some tips on how to tweak the speed of your site</li>
+      <li>Be notified of new courses or new services from Bloop, Bloop, Shop!</li>
+    </ul>
+  </div>
+</div>
+
 ## Some of the things you'd have to do to fix it:
 
 * **Simulate the site loading at slow speeds**: there's going to be the first screenful. You want that to quickly answer the questions "Am I at the right spot?" and "Is it worth the wait?"

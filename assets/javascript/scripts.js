@@ -13,7 +13,7 @@
       return;
     }
 
-    reframe('iframe');
+    reframe('iframe[src~="youtube"]');
   }
   makeVideosResponsive();
 })()
