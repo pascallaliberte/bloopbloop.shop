@@ -1,2 +1,3 @@
 # Redirect with a 301
-/         /speed/              301
+/               /speed/          301
+/bfcm-meetup/   /speed/          301
