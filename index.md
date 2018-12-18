@@ -80,20 +80,7 @@ Shopify already does a lot to help with speed. They host your images (and styles
 * **Found someone to help you tweak more aspects** of your store, like the wording, the sequence of messages, based on the [psychology of your buyer][jtbd].
 * **Gotten a more detailed look** at how your visitors experience your site. You'll get some stats about the site loading experience, and a way for you to check on your own later on.
 
-## Let's have a first call
-
-By the end of that **first 30-minute call**, you'll have:
-
-* Obtained a sense of **how your site can be improved**,
-* Obtained some tips **on anything you can do quickly** on your own,
-* Obtained a sense of how we can work together.
-{: .get-started-checklist }
-
-<div class="text-center" markdown="1">
-<img src="https://www.appointletcdn.com/loader/buttons/F1C40F.png" data-appointlet-organization="pascallaliberte" data-appointlet-service="49625"><script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
-
-**$90 USD** for a first 30-minute (helpful in itself) intro call.
-</div>
+[Send me an email](mailto:pascal@pascallaliberte.me?subject=Help%20Making%20my%20Shopify%20Store%20Faster)
 
 {% include signup-services-announcement.html id="get-notified" %}
 
